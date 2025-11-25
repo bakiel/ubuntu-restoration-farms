@@ -565,93 +565,141 @@ const LandingPage: React.FC<LandingPageProps> = ({ onEnter, isPlaying, currentPl
           </div>
 
           {/* Executive Team Cards */}
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-12">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-12">
             {/* Bakiel Nxumalo */}
-            <div className="bg-gradient-to-br from-slate-900 to-slate-800 rounded-2xl p-6 text-white shadow-xl hover:shadow-2xl transition-shadow">
-              <div className="flex items-center gap-4 mb-4">
-                <div className="w-16 h-16 rounded-xl bg-emerald-500/20 border-2 border-emerald-500/30 flex items-center justify-center flex-shrink-0">
-                  <span className="text-2xl font-bold text-emerald-400">BN</span>
+            <div className="group relative">
+              <div className="absolute -inset-1 bg-gradient-to-r from-emerald-600 to-emerald-400 rounded-3xl blur opacity-25 group-hover:opacity-75 transition duration-500"></div>
+              <div className="relative bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 rounded-2xl overflow-hidden shadow-xl">
+                {/* Photo Container */}
+                <div className="relative h-64 overflow-hidden">
+                  <img
+                    src="/ubuntu-restoration-farms/images/bakiel-nxumalo.png"
+                    alt="Bakiel Nxumalo"
+                    className="w-full h-full object-cover object-top transform group-hover:scale-110 transition-transform duration-700"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/50 to-transparent"></div>
+                  {/* Floating Badge */}
+                  <div className="absolute top-4 right-4 px-3 py-1 bg-emerald-500/90 backdrop-blur-sm rounded-full text-white text-xs font-bold shadow-lg">
+                    Technical Director
+                  </div>
+                  {/* Name Overlay */}
+                  <div className="absolute bottom-4 left-4 right-4">
+                    <h3 className="text-2xl font-black text-white mb-1">Bakiel Nxumalo</h3>
+                    <p className="text-emerald-400 text-sm font-medium">"The Soy Chef"</p>
+                  </div>
                 </div>
-                <div>
-                  <h3 className="text-lg font-bold">Bakiel Nxumalo</h3>
-                  <p className="text-emerald-400 text-sm font-medium">Technical Director</p>
-                </div>
-              </div>
-              <p className="text-slate-300 text-sm leading-relaxed mb-4">
-                INTSOY certified with 21 years in regenerative agriculture. USAID contract partner. Creator of JASPER™ financial modelling system. "The Soy Chef" - Deutsche Welle featured.
-              </p>
-              <div className="flex flex-wrap gap-2 mb-4">
-                <span className="px-2 py-1 bg-emerald-500/20 text-emerald-400 rounded text-xs font-medium">Agricultural Tech</span>
-                <span className="px-2 py-1 bg-emerald-500/20 text-emerald-400 rounded text-xs font-medium">R600M+ Projects</span>
-              </div>
-              <div className="pt-4 border-t border-slate-700 space-y-2 text-xs">
-                <div className="flex items-center gap-2 text-slate-400">
-                  <Mail className="w-3 h-3" />
-                  <span>bakielisrael@gmail.com</span>
-                </div>
-                <div className="flex items-center gap-2 text-slate-400">
-                  <Phone className="w-3 h-3" />
-                  <span>+27 65 938 7000</span>
+                {/* Content */}
+                <div className="p-6">
+                  <p className="text-slate-300 text-sm leading-relaxed mb-4">
+                    INTSOY certified with 21 years in regenerative agriculture. USAID contract partner. Creator of JASPER™ financial modelling system.
+                  </p>
+                  <div className="flex flex-wrap gap-2 mb-4">
+                    <span className="px-3 py-1 bg-emerald-500/20 text-emerald-400 rounded-full text-xs font-bold">Agricultural Tech</span>
+                    <span className="px-3 py-1 bg-emerald-500/20 text-emerald-400 rounded-full text-xs font-bold">R600M+ Projects</span>
+                    <span className="px-3 py-1 bg-emerald-500/20 text-emerald-400 rounded-full text-xs font-bold">USAID Partner</span>
+                  </div>
+                  <div className="pt-4 border-t border-slate-700/50 flex items-center justify-between">
+                    <a href="mailto:bakielisrael@gmail.com" className="flex items-center gap-2 text-slate-400 hover:text-emerald-400 transition-colors text-sm">
+                      <Mail className="w-4 h-4" />
+                      <span>Email</span>
+                    </a>
+                    <a href="tel:+27659387000" className="flex items-center gap-2 text-slate-400 hover:text-emerald-400 transition-colors text-sm">
+                      <Phone className="w-4 h-4" />
+                      <span>+27 65 938 7000</span>
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
 
             {/* Keletso Kungwane */}
-            <div className="bg-gradient-to-br from-blue-900 to-slate-800 rounded-2xl p-6 text-white shadow-xl hover:shadow-2xl transition-shadow">
-              <div className="flex items-center gap-4 mb-4">
-                <div className="w-16 h-16 rounded-xl bg-blue-500/20 border-2 border-blue-500/30 flex items-center justify-center flex-shrink-0">
-                  <span className="text-2xl font-bold text-blue-400">KK</span>
+            <div className="group relative">
+              <div className="absolute -inset-1 bg-gradient-to-r from-blue-600 to-cyan-400 rounded-3xl blur opacity-25 group-hover:opacity-75 transition duration-500"></div>
+              <div className="relative bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 rounded-2xl overflow-hidden shadow-xl">
+                {/* Photo Container */}
+                <div className="relative h-64 overflow-hidden">
+                  <img
+                    src="/ubuntu-restoration-farms/images/keletso-kungwane.png"
+                    alt="Keletso Kungwane"
+                    className="w-full h-full object-cover object-top transform group-hover:scale-110 transition-transform duration-700"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/50 to-transparent"></div>
+                  {/* Floating Badge */}
+                  <div className="absolute top-4 right-4 px-3 py-1 bg-blue-500/90 backdrop-blur-sm rounded-full text-white text-xs font-bold shadow-lg">
+                    Director of Operations
+                  </div>
+                  {/* Name Overlay */}
+                  <div className="absolute bottom-4 left-4 right-4">
+                    <h3 className="text-2xl font-black text-white mb-1">Keletso Kungwane</h3>
+                    <p className="text-blue-400 text-sm font-medium">"Voice & Face of Kutlwano"</p>
+                  </div>
                 </div>
-                <div>
-                  <h3 className="text-lg font-bold">Keletso Kungwane</h3>
-                  <p className="text-blue-400 text-sm font-medium">Director of Operations</p>
-                </div>
-              </div>
-              <p className="text-slate-300 text-sm leading-relaxed mb-4">
-                "Voice and face of Kutlwano Holdings." R0→R12M revenue growth in 36 months. 6+ government contracts. 150+ employees managed with 92% retention. HACCP & ISO 22000 certified.
-              </p>
-              <div className="flex flex-wrap gap-2 mb-4">
-                <span className="px-2 py-1 bg-blue-500/20 text-blue-400 rounded text-xs font-medium">Operations Scaling</span>
-                <span className="px-2 py-1 bg-blue-500/20 text-blue-400 rounded text-xs font-medium">Gov Contracts</span>
-              </div>
-              <div className="pt-4 border-t border-slate-700 space-y-2 text-xs">
-                <div className="flex items-center gap-2 text-slate-400">
-                  <Mail className="w-3 h-3" />
-                  <span>keletsok@gmail.com</span>
-                </div>
-                <div className="flex items-center gap-2 text-slate-400">
-                  <Phone className="w-3 h-3" />
-                  <span>+27 84 478 8872</span>
+                {/* Content */}
+                <div className="p-6">
+                  <p className="text-slate-300 text-sm leading-relaxed mb-4">
+                    R0→R12M revenue growth in 36 months. 6+ government contracts. 150+ employees managed with 92% retention. HACCP & ISO 22000 certified.
+                  </p>
+                  <div className="flex flex-wrap gap-2 mb-4">
+                    <span className="px-3 py-1 bg-blue-500/20 text-blue-400 rounded-full text-xs font-bold">Operations Scaling</span>
+                    <span className="px-3 py-1 bg-blue-500/20 text-blue-400 rounded-full text-xs font-bold">6+ Gov Contracts</span>
+                    <span className="px-3 py-1 bg-blue-500/20 text-blue-400 rounded-full text-xs font-bold">150+ Team</span>
+                  </div>
+                  <div className="pt-4 border-t border-slate-700/50 flex items-center justify-between">
+                    <a href="mailto:keletsok@gmail.com" className="flex items-center gap-2 text-slate-400 hover:text-blue-400 transition-colors text-sm">
+                      <Mail className="w-4 h-4" />
+                      <span>Email</span>
+                    </a>
+                    <a href="tel:+27844788872" className="flex items-center gap-2 text-slate-400 hover:text-blue-400 transition-colors text-sm">
+                      <Phone className="w-4 h-4" />
+                      <span>+27 84 478 8872</span>
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
 
             {/* Mmeli Ngubane */}
-            <div className="bg-gradient-to-br from-amber-900 to-slate-800 rounded-2xl p-6 text-white shadow-xl hover:shadow-2xl transition-shadow">
-              <div className="flex items-center gap-4 mb-4">
-                <div className="w-16 h-16 rounded-xl bg-amber-500/20 border-2 border-amber-500/30 flex items-center justify-center flex-shrink-0">
-                  <span className="text-2xl font-bold text-amber-400">MN</span>
+            <div className="group relative">
+              <div className="absolute -inset-1 bg-gradient-to-r from-amber-600 to-orange-400 rounded-3xl blur opacity-25 group-hover:opacity-75 transition duration-500"></div>
+              <div className="relative bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 rounded-2xl overflow-hidden shadow-xl">
+                {/* Photo Container */}
+                <div className="relative h-64 overflow-hidden">
+                  <img
+                    src="/ubuntu-restoration-farms/images/mmeli-ngubane.png"
+                    alt="Mmeli Ngubane"
+                    className="w-full h-full object-cover object-top transform group-hover:scale-110 transition-transform duration-700"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/50 to-transparent"></div>
+                  {/* Floating Badge */}
+                  <div className="absolute top-4 right-4 px-3 py-1 bg-amber-500/90 backdrop-blur-sm rounded-full text-white text-xs font-bold shadow-lg">
+                    Strategic Partnerships
+                  </div>
+                  {/* Name Overlay */}
+                  <div className="absolute bottom-4 left-4 right-4">
+                    <h3 className="text-2xl font-black text-white mb-1">Mmeli Ngubane</h3>
+                    <p className="text-amber-400 text-sm font-medium">Food Systems Strategist</p>
+                  </div>
                 </div>
-                <div>
-                  <h3 className="text-lg font-bold">Mmeli Ngubane</h3>
-                  <p className="text-amber-400 text-sm font-medium">Strategic Partnerships</p>
-                </div>
-              </div>
-              <p className="text-slate-300 text-sm leading-relaxed mb-4">
-                Food systems strategist. Secured IDC, Land Bank, FAO, AGRA, Checkers alliances. 1,000+ farmers connected to markets. Healthy Young Minds NPO founder (2,000+ learners). GRI certified.
-              </p>
-              <div className="flex flex-wrap gap-2 mb-4">
-                <span className="px-2 py-1 bg-amber-500/20 text-amber-400 rounded text-xs font-medium">DFI/UN Relations</span>
-                <span className="px-2 py-1 bg-amber-500/20 text-amber-400 rounded text-xs font-medium">Social Impact</span>
-              </div>
-              <div className="pt-4 border-t border-slate-700 space-y-2 text-xs">
-                <div className="flex items-center gap-2 text-slate-400">
-                  <Mail className="w-3 h-3" />
-                  <span>mmelingubane@gmail.com</span>
-                </div>
-                <div className="flex items-center gap-2 text-slate-400">
-                  <Phone className="w-3 h-3" />
-                  <span>+27 72 591 3799</span>
+                {/* Content */}
+                <div className="p-6">
+                  <p className="text-slate-300 text-sm leading-relaxed mb-4">
+                    Secured IDC, Land Bank, FAO, AGRA, Checkers alliances. 1,000+ farmers connected to markets. Healthy Young Minds NPO founder. GRI certified.
+                  </p>
+                  <div className="flex flex-wrap gap-2 mb-4">
+                    <span className="px-3 py-1 bg-amber-500/20 text-amber-400 rounded-full text-xs font-bold">DFI/UN Relations</span>
+                    <span className="px-3 py-1 bg-amber-500/20 text-amber-400 rounded-full text-xs font-bold">1000+ Farmers</span>
+                    <span className="px-3 py-1 bg-amber-500/20 text-amber-400 rounded-full text-xs font-bold">NPO Founder</span>
+                  </div>
+                  <div className="pt-4 border-t border-slate-700/50 flex items-center justify-between">
+                    <a href="mailto:mmelingubane@gmail.com" className="flex items-center gap-2 text-slate-400 hover:text-amber-400 transition-colors text-sm">
+                      <Mail className="w-4 h-4" />
+                      <span>Email</span>
+                    </a>
+                    <a href="tel:+27725913799" className="flex items-center gap-2 text-slate-400 hover:text-amber-400 transition-colors text-sm">
+                      <Phone className="w-4 h-4" />
+                      <span>+27 72 591 3799</span>
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
