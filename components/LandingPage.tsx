@@ -556,86 +556,166 @@ const LandingPage: React.FC<LandingPageProps> = ({ onEnter, isPlaying, currentPl
           <div className="text-center max-w-3xl mx-auto mb-12 sm:mb-16">
             <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-emerald-100 text-emerald-700 text-xs font-bold uppercase tracking-wider mb-6">
               <Award className="w-4 h-4" />
-              Leadership
+              Executive Team
             </div>
-            <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">21 Years of Agricultural Excellence</h2>
+            <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">Complete Leadership for R438M Deployment</h2>
             <p className="text-base sm:text-lg text-slate-600 leading-relaxed">
-              Backed by decades of hands-on experience in regenerative agriculture and R600M+ in successful project implementations.
+              Technical + Operational + Partnership expertise. Zero capability gaps. Proven track record across R600M+ in projects.
             </p>
           </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
-            {/* Leader Card */}
-            <div className="bg-gradient-to-br from-slate-900 to-slate-800 rounded-3xl p-8 text-white shadow-2xl">
-              <div className="flex flex-col sm:flex-row gap-6 items-start">
-                <div className="w-24 h-24 rounded-2xl bg-emerald-500/20 border-2 border-emerald-500/30 flex items-center justify-center flex-shrink-0">
-                  <span className="text-4xl font-bold text-emerald-400">BN</span>
+          {/* Executive Team Cards */}
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-12">
+            {/* Bakiel Nxumalo */}
+            <div className="bg-gradient-to-br from-slate-900 to-slate-800 rounded-2xl p-6 text-white shadow-xl hover:shadow-2xl transition-shadow">
+              <div className="flex items-center gap-4 mb-4">
+                <div className="w-16 h-16 rounded-xl bg-emerald-500/20 border-2 border-emerald-500/30 flex items-center justify-center flex-shrink-0">
+                  <span className="text-2xl font-bold text-emerald-400">BN</span>
                 </div>
-                <div className="flex-1">
-                  <h3 className="text-2xl font-bold mb-1">Bakiel Ben Shomriel Nxumalo</h3>
-                  <p className="text-emerald-400 font-medium mb-4">Founder & Technical Director</p>
-                  <p className="text-slate-300 text-sm leading-relaxed mb-4">
-                    INTSOY certified agricultural consultant with 21 years of experience designing and implementing regenerative farming systems across South Africa.
-                  </p>
-                  <div className="flex flex-wrap gap-2">
-                    <span className="px-3 py-1 bg-white/10 rounded-full text-xs font-medium">INTSOY Certified</span>
-                    <span className="px-3 py-1 bg-white/10 rounded-full text-xs font-medium">R600M+ Projects</span>
-                    <span className="px-3 py-1 bg-white/10 rounded-full text-xs font-medium">Deutsche Welle Featured</span>
-                  </div>
+                <div>
+                  <h3 className="text-lg font-bold">Bakiel Nxumalo</h3>
+                  <p className="text-emerald-400 text-sm font-medium">Technical Director</p>
+                </div>
+              </div>
+              <p className="text-slate-300 text-sm leading-relaxed mb-4">
+                INTSOY certified with 21 years in regenerative agriculture. USAID contract partner. Creator of JASPER™ financial modelling system. "The Soy Chef" - Deutsche Welle featured.
+              </p>
+              <div className="flex flex-wrap gap-2 mb-4">
+                <span className="px-2 py-1 bg-emerald-500/20 text-emerald-400 rounded text-xs font-medium">Agricultural Tech</span>
+                <span className="px-2 py-1 bg-emerald-500/20 text-emerald-400 rounded text-xs font-medium">R600M+ Projects</span>
+              </div>
+              <div className="pt-4 border-t border-slate-700 space-y-2 text-xs">
+                <div className="flex items-center gap-2 text-slate-400">
+                  <Mail className="w-3 h-3" />
+                  <span>bakielisrael@gmail.com</span>
+                </div>
+                <div className="flex items-center gap-2 text-slate-400">
+                  <Phone className="w-3 h-3" />
+                  <span>+27 65 938 7000</span>
                 </div>
               </div>
             </div>
 
-            {/* Company Info */}
-            <div className="space-y-6">
-              <div className="bg-slate-50 rounded-2xl p-6 border border-slate-200 hover:border-emerald-200 transition-colors">
-                <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 rounded-xl bg-emerald-100 text-emerald-600 flex items-center justify-center flex-shrink-0">
-                    <Building2 className="w-6 h-6" />
-                  </div>
-                  <div>
-                    <h4 className="font-bold text-slate-900 mb-1">Kutlwano Holdings (Pty) Ltd</h4>
-                    <p className="text-sm text-slate-600 mb-2">Registration: 2017/103109/07</p>
-                    <p className="text-sm text-slate-500">Strategic investment vehicle for Ubuntu Restoration Farms and UAEI platform development.</p>
-                  </div>
+            {/* Keletso Kungwane */}
+            <div className="bg-gradient-to-br from-blue-900 to-slate-800 rounded-2xl p-6 text-white shadow-xl hover:shadow-2xl transition-shadow">
+              <div className="flex items-center gap-4 mb-4">
+                <div className="w-16 h-16 rounded-xl bg-blue-500/20 border-2 border-blue-500/30 flex items-center justify-center flex-shrink-0">
+                  <span className="text-2xl font-bold text-blue-400">KK</span>
+                </div>
+                <div>
+                  <h3 className="text-lg font-bold">Keletso Kungwane</h3>
+                  <p className="text-blue-400 text-sm font-medium">Director of Operations</p>
                 </div>
               </div>
+              <p className="text-slate-300 text-sm leading-relaxed mb-4">
+                "Voice and face of Kutlwano Holdings." R0→R12M revenue growth in 36 months. 6+ government contracts. 150+ employees managed with 92% retention. HACCP & ISO 22000 certified.
+              </p>
+              <div className="flex flex-wrap gap-2 mb-4">
+                <span className="px-2 py-1 bg-blue-500/20 text-blue-400 rounded text-xs font-medium">Operations Scaling</span>
+                <span className="px-2 py-1 bg-blue-500/20 text-blue-400 rounded text-xs font-medium">Gov Contracts</span>
+              </div>
+              <div className="pt-4 border-t border-slate-700 space-y-2 text-xs">
+                <div className="flex items-center gap-2 text-slate-400">
+                  <Mail className="w-3 h-3" />
+                  <span>keletsok@gmail.com</span>
+                </div>
+                <div className="flex items-center gap-2 text-slate-400">
+                  <Phone className="w-3 h-3" />
+                  <span>+27 84 478 8872</span>
+                </div>
+              </div>
+            </div>
 
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                <div className="bg-slate-50 rounded-xl p-4 border border-slate-200">
-                  <div className="flex items-center gap-3 mb-2">
-                    <MapPin className="w-5 h-5 text-emerald-600" />
-                    <span className="font-medium text-slate-900">Location</span>
-                  </div>
-                  <p className="text-sm text-slate-600">Modimolle, Limpopo Province<br />South Africa</p>
+            {/* Mmeli Ngubane */}
+            <div className="bg-gradient-to-br from-amber-900 to-slate-800 rounded-2xl p-6 text-white shadow-xl hover:shadow-2xl transition-shadow">
+              <div className="flex items-center gap-4 mb-4">
+                <div className="w-16 h-16 rounded-xl bg-amber-500/20 border-2 border-amber-500/30 flex items-center justify-center flex-shrink-0">
+                  <span className="text-2xl font-bold text-amber-400">MN</span>
                 </div>
-                <div className="bg-slate-50 rounded-xl p-4 border border-slate-200">
-                  <div className="flex items-center gap-3 mb-2">
-                    <Mail className="w-5 h-5 text-emerald-600" />
-                    <span className="font-medium text-slate-900">Contact</span>
-                  </div>
-                  <a href="mailto:bakiel@kutlwanoholdings.co.za" className="text-sm text-emerald-600 hover:text-emerald-700 transition-colors">
-                    bakiel@kutlwanoholdings.co.za
-                  </a>
+                <div>
+                  <h3 className="text-lg font-bold">Mmeli Ngubane</h3>
+                  <p className="text-amber-400 text-sm font-medium">Strategic Partnerships</p>
                 </div>
               </div>
+              <p className="text-slate-300 text-sm leading-relaxed mb-4">
+                Food systems strategist. Secured IDC, Land Bank, FAO, AGRA, Checkers alliances. 1,000+ farmers connected to markets. Healthy Young Minds NPO founder (2,000+ learners). GRI certified.
+              </p>
+              <div className="flex flex-wrap gap-2 mb-4">
+                <span className="px-2 py-1 bg-amber-500/20 text-amber-400 rounded text-xs font-medium">DFI/UN Relations</span>
+                <span className="px-2 py-1 bg-amber-500/20 text-amber-400 rounded text-xs font-medium">Social Impact</span>
+              </div>
+              <div className="pt-4 border-t border-slate-700 space-y-2 text-xs">
+                <div className="flex items-center gap-2 text-slate-400">
+                  <Mail className="w-3 h-3" />
+                  <span>mmelingubane@gmail.com</span>
+                </div>
+                <div className="flex items-center gap-2 text-slate-400">
+                  <Phone className="w-3 h-3" />
+                  <span>+27 72 591 3799</span>
+                </div>
+              </div>
+            </div>
+          </div>
 
-              <div className="flex flex-wrap gap-3">
-                <a
-                  href="mailto:bakiel@kutlwanoholdings.co.za?subject=Ubuntu%20Restoration%20Farms%20Investment%20Inquiry"
-                  className="flex items-center gap-2 bg-emerald-600 hover:bg-emerald-500 text-white px-6 py-3 rounded-xl font-medium transition-all shadow-lg hover:shadow-emerald-500/25"
-                >
-                  <Mail className="w-5 h-5" />
-                  Request Information Pack
-                </a>
-                <button
-                  onClick={() => onEnter('dashboard')}
-                  className="flex items-center gap-2 bg-slate-900 hover:bg-slate-800 text-white px-6 py-3 rounded-xl font-medium transition-all"
-                >
-                  <FileText className="w-5 h-5" />
-                  View Full Proposal
-                </button>
+          {/* Capability Matrix */}
+          <div className="bg-slate-50 rounded-2xl p-6 border border-slate-200 mb-8">
+            <h4 className="font-bold text-slate-900 mb-4 text-center">Team Capability Coverage</h4>
+            <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-3">
+              {[
+                { label: "Agricultural Tech", status: "Bakiel" },
+                { label: "Operations Scaling", status: "Keletso" },
+                { label: "Government Contracts", status: "All 3" },
+                { label: "DFI Partnerships", status: "Mmeli" },
+                { label: "Technology Platforms", status: "Bakiel" },
+                { label: "Social Impact", status: "Mmeli" },
+              ].map((item, i) => (
+                <div key={i} className="bg-white rounded-lg p-3 border border-slate-200 text-center">
+                  <div className="text-xs font-medium text-slate-500 mb-1">{item.label}</div>
+                  <div className="text-sm font-bold text-emerald-600">{item.status}</div>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Company Info + CTA */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+            <div className="bg-slate-900 rounded-2xl p-6 text-white">
+              <div className="flex items-start gap-4 mb-4">
+                <div className="w-12 h-12 rounded-xl bg-emerald-500/20 flex items-center justify-center flex-shrink-0">
+                  <Building2 className="w-6 h-6 text-emerald-400" />
+                </div>
+                <div>
+                  <h4 className="font-bold text-lg">Kutlwano Holdings (Pty) Ltd</h4>
+                  <p className="text-slate-400 text-sm">Registration: 2017/103109/07 • Level 1 B-BBEE</p>
+                </div>
               </div>
+              <div className="grid grid-cols-2 gap-4 text-sm">
+                <div>
+                  <div className="text-slate-500 text-xs uppercase mb-1">Location</div>
+                  <div className="text-slate-300">Modimolle, Limpopo</div>
+                </div>
+                <div>
+                  <div className="text-slate-500 text-xs uppercase mb-1">Status</div>
+                  <div className="text-emerald-400 font-medium">Investment Ready</div>
+                </div>
+              </div>
+            </div>
+
+            <div className="flex flex-col justify-center gap-4">
+              <a
+                href="mailto:bakiel@kutlwanoholdings.co.za?subject=Ubuntu%20Restoration%20Farms%20Investment%20Inquiry"
+                className="flex items-center justify-center gap-2 bg-emerald-600 hover:bg-emerald-500 text-white px-6 py-4 rounded-xl font-bold transition-all shadow-lg hover:shadow-emerald-500/25"
+              >
+                <Mail className="w-5 h-5" />
+                Request Executive Team Meeting
+              </a>
+              <button
+                onClick={() => onEnter('dashboard')}
+                className="flex items-center justify-center gap-2 bg-slate-900 hover:bg-slate-800 text-white px-6 py-4 rounded-xl font-bold transition-all"
+              >
+                <FileText className="w-5 h-5" />
+                View Full Investment Proposal
+              </button>
             </div>
           </div>
         </div>
