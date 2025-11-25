@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { ArrowRight, Leaf, Zap, Users, TrendingUp, ShieldCheck, Factory, MapPin, Droplets, Layers, Battery, Truck, Coins, Globe, PlayCircle, Star, Box } from 'lucide-react';
+import { ArrowRight, Leaf, Zap, Users, TrendingUp, ShieldCheck, Factory, MapPin, Droplets, Layers, Battery, Truck, Coins, Globe, PlayCircle, Star, Box, Mail, Phone, Building2, Award, Linkedin, FileText, Download } from 'lucide-react';
 import { voiceScripts } from '../data/voiceScripts';
 import AudioButton from './AudioButton';
 
@@ -550,21 +550,198 @@ const LandingPage: React.FC<LandingPageProps> = ({ onEnter, isPlaying, currentPl
         </div>
       </section>
 
-      {/* Footer */}
-      <footer className="bg-white border-t border-slate-200 py-12">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 flex flex-col md:flex-row justify-between items-center gap-6">
-            <div className="flex items-center gap-3">
-                <div className="h-8 w-8 rounded-full overflow-hidden border border-slate-200">
-                     <img src="https://i.postimg.cc/9Fp8zz5K/UAEI-Icon.png" alt="Ubuntu Restoration Farms" className="w-full h-full object-cover" />
+      {/* Leadership Section */}
+      <section className="py-16 sm:py-24 bg-white border-t border-slate-200">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6">
+          <div className="text-center max-w-3xl mx-auto mb-12 sm:mb-16">
+            <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-emerald-100 text-emerald-700 text-xs font-bold uppercase tracking-wider mb-6">
+              <Award className="w-4 h-4" />
+              Leadership
+            </div>
+            <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">21 Years of Agricultural Excellence</h2>
+            <p className="text-base sm:text-lg text-slate-600 leading-relaxed">
+              Backed by decades of hands-on experience in regenerative agriculture and R600M+ in successful project implementations.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+            {/* Leader Card */}
+            <div className="bg-gradient-to-br from-slate-900 to-slate-800 rounded-3xl p-8 text-white shadow-2xl">
+              <div className="flex flex-col sm:flex-row gap-6 items-start">
+                <div className="w-24 h-24 rounded-2xl bg-emerald-500/20 border-2 border-emerald-500/30 flex items-center justify-center flex-shrink-0">
+                  <span className="text-4xl font-bold text-emerald-400">BN</span>
                 </div>
-                <span className="font-bold text-slate-900">Ubuntu Restoration Farms</span>
+                <div className="flex-1">
+                  <h3 className="text-2xl font-bold mb-1">Bakiel Ben Shomriel Nxumalo</h3>
+                  <p className="text-emerald-400 font-medium mb-4">Founder & Technical Director</p>
+                  <p className="text-slate-300 text-sm leading-relaxed mb-4">
+                    INTSOY certified agricultural consultant with 21 years of experience designing and implementing regenerative farming systems across South Africa.
+                  </p>
+                  <div className="flex flex-wrap gap-2">
+                    <span className="px-3 py-1 bg-white/10 rounded-full text-xs font-medium">INTSOY Certified</span>
+                    <span className="px-3 py-1 bg-white/10 rounded-full text-xs font-medium">R600M+ Projects</span>
+                    <span className="px-3 py-1 bg-white/10 rounded-full text-xs font-medium">Deutsche Welle Featured</span>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div className="text-slate-500 text-sm text-center md:text-right flex flex-col md:flex-row items-center gap-2">
-                <span className="hidden md:inline">•</span>
-                <span>© November 2025 Master Plan</span>
-                <span className="hidden md:inline">•</span>
-                <span>Confidential Government Proposal</span>
+
+            {/* Company Info */}
+            <div className="space-y-6">
+              <div className="bg-slate-50 rounded-2xl p-6 border border-slate-200 hover:border-emerald-200 transition-colors">
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 rounded-xl bg-emerald-100 text-emerald-600 flex items-center justify-center flex-shrink-0">
+                    <Building2 className="w-6 h-6" />
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-slate-900 mb-1">Kutlwano Holdings (Pty) Ltd</h4>
+                    <p className="text-sm text-slate-600 mb-2">Registration: 2017/103109/07</p>
+                    <p className="text-sm text-slate-500">Strategic investment vehicle for Ubuntu Restoration Farms and UAEI platform development.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div className="bg-slate-50 rounded-xl p-4 border border-slate-200">
+                  <div className="flex items-center gap-3 mb-2">
+                    <MapPin className="w-5 h-5 text-emerald-600" />
+                    <span className="font-medium text-slate-900">Location</span>
+                  </div>
+                  <p className="text-sm text-slate-600">Modimolle, Limpopo Province<br />South Africa</p>
+                </div>
+                <div className="bg-slate-50 rounded-xl p-4 border border-slate-200">
+                  <div className="flex items-center gap-3 mb-2">
+                    <Mail className="w-5 h-5 text-emerald-600" />
+                    <span className="font-medium text-slate-900">Contact</span>
+                  </div>
+                  <a href="mailto:bakiel@kutlwanoholdings.co.za" className="text-sm text-emerald-600 hover:text-emerald-700 transition-colors">
+                    bakiel@kutlwanoholdings.co.za
+                  </a>
+                </div>
+              </div>
+
+              <div className="flex flex-wrap gap-3">
+                <a
+                  href="mailto:bakiel@kutlwanoholdings.co.za?subject=Ubuntu%20Restoration%20Farms%20Investment%20Inquiry"
+                  className="flex items-center gap-2 bg-emerald-600 hover:bg-emerald-500 text-white px-6 py-3 rounded-xl font-medium transition-all shadow-lg hover:shadow-emerald-500/25"
+                >
+                  <Mail className="w-5 h-5" />
+                  Request Information Pack
+                </a>
+                <button
+                  onClick={() => onEnter('dashboard')}
+                  className="flex items-center gap-2 bg-slate-900 hover:bg-slate-800 text-white px-6 py-3 rounded-xl font-medium transition-all"
+                >
+                  <FileText className="w-5 h-5" />
+                  View Full Proposal
+                </button>
+              </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Documents Section */}
+      <section className="py-16 sm:py-20 bg-slate-50 border-t border-slate-200">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6">
+          <div className="text-center mb-12">
+            <h3 className="text-2xl font-bold text-slate-900 mb-3">Supporting Documentation</h3>
+            <p className="text-slate-600">Comprehensive business plans available under confidentiality agreement</p>
+          </div>
+
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+            {[
+              { name: "Plan 1", desc: "Core Farm Acquisition", value: "R77M" },
+              { name: "Plan 2", desc: "Agroforestry System", value: "R85M" },
+              { name: "Plan 3", desc: "Processing Facility", value: "R120M" },
+              { name: "Plan 4", desc: "Artisan Products", value: "R55M" },
+              { name: "Plan 5", desc: "Energy Independence", value: "R35M" },
+              { name: "Plan 6", desc: "Bio-Energy Facility", value: "R40M" },
+            ].map((doc, i) => (
+              <div key={i} className="bg-white rounded-xl p-4 border border-slate-200 hover:border-emerald-300 hover:shadow-md transition-all group cursor-pointer">
+                <div className="w-10 h-10 rounded-lg bg-emerald-100 text-emerald-600 flex items-center justify-center mb-3 group-hover:bg-emerald-600 group-hover:text-white transition-colors">
+                  <FileText className="w-5 h-5" />
+                </div>
+                <h4 className="font-bold text-slate-900 text-sm mb-1">{doc.name}</h4>
+                <p className="text-xs text-slate-500 mb-2">{doc.desc}</p>
+                <p className="text-sm font-bold text-emerald-600">{doc.value}</p>
+              </div>
+            ))}
+          </div>
+
+          <div className="mt-8 text-center">
+            <a
+              href="mailto:bakiel@kutlwanoholdings.co.za?subject=Request%20for%20Ubuntu%20Restoration%20Farms%20Documentation"
+              className="inline-flex items-center gap-2 text-emerald-600 hover:text-emerald-700 font-medium transition-colors"
+            >
+              <Download className="w-5 h-5" />
+              Request Full Documentation Package
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* Footer */}
+      <footer className="bg-slate-900 text-white py-12">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+            {/* Brand */}
+            <div className="md:col-span-2">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="h-10 w-10 rounded-full overflow-hidden border border-white/20">
+                  <img src="https://i.postimg.cc/9Fp8zz5K/UAEI-Icon.png" alt="Ubuntu Restoration Farms" className="w-full h-full object-cover" />
+                </div>
+                <span className="font-bold text-xl">Ubuntu Restoration Farms</span>
+              </div>
+              <p className="text-slate-400 text-sm leading-relaxed mb-4 max-w-md">
+                A R438M integrated agricultural investment solving 8 government mandates with one regenerative system. Where 500-year vision meets bankable returns.
+              </p>
+              <p className="text-emerald-400 text-sm italic">
+                "I am because we are. We are because the soil lives."
+              </p>
+            </div>
+
+            {/* Quick Links */}
+            <div>
+              <h4 className="font-bold mb-4 text-white">Explore</h4>
+              <ul className="space-y-2 text-sm">
+                <li><button onClick={() => onEnter('dashboard')} className="text-slate-400 hover:text-emerald-400 transition-colors">Investment Model</button></li>
+                <li><button onClick={() => onEnter('model3d')} className="text-slate-400 hover:text-emerald-400 transition-colors">3D Digital Twin</button></li>
+                <li><button onClick={() => onEnter('storyboard')} className="text-slate-400 hover:text-emerald-400 transition-colors">Visual Story</button></li>
+                <li><button onClick={() => onEnter('impact')} className="text-slate-400 hover:text-emerald-400 transition-colors">Impact & ESG</button></li>
+              </ul>
+            </div>
+
+            {/* Contact */}
+            <div>
+              <h4 className="font-bold mb-4 text-white">Contact</h4>
+              <ul className="space-y-3 text-sm">
+                <li className="flex items-center gap-2 text-slate-400">
+                  <Building2 className="w-4 h-4 text-emerald-500" />
+                  Kutlwano Holdings (Pty) Ltd
+                </li>
+                <li className="flex items-center gap-2 text-slate-400">
+                  <MapPin className="w-4 h-4 text-emerald-500" />
+                  Modimolle, Limpopo, SA
+                </li>
+                <li>
+                  <a href="mailto:bakiel@kutlwanoholdings.co.za" className="flex items-center gap-2 text-slate-400 hover:text-emerald-400 transition-colors">
+                    <Mail className="w-4 h-4 text-emerald-500" />
+                    bakiel@kutlwanoholdings.co.za
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="pt-8 border-t border-slate-800 flex flex-col md:flex-row justify-between items-center gap-4">
+            <div className="text-slate-500 text-sm">
+              © November 2025 Ubuntu Restoration Farms • Confidential Investment Proposal
+            </div>
+            <div className="text-slate-500 text-xs">
+              Registration: 2017/103109/07 • Investment Ready
+            </div>
+          </div>
         </div>
       </footer>
 
