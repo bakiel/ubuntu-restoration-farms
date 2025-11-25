@@ -667,7 +667,7 @@ const LandingPage: React.FC<LandingPageProps> = ({ onEnter, isPlaying, currentPl
                   <img
                     src="/ubuntu-restoration-farms/images/mmeli-ngubane.png"
                     alt="Mmeli Ngubane"
-                    className="w-full h-full object-cover object-top transform group-hover:scale-110 transition-transform duration-700"
+                    className="w-full h-full object-cover object-[center_20%] transform group-hover:scale-110 transition-transform duration-700"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/50 to-transparent"></div>
                   {/* Floating Badge */}
@@ -849,11 +849,11 @@ const LandingPage: React.FC<LandingPageProps> = ({ onEnter, isPlaying, currentPl
                   Contact Kutlwano Holdings
                 </a>
                 <a
-                  href="tel:+27659387000"
+                  href="tel:+27844788872"
                   className="flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white px-5 py-3 rounded-xl font-medium transition-all border border-white/20"
                 >
                   <Phone className="w-5 h-5" />
-                  +27 65 938 7000
+                  +27 84 478 8872
                 </a>
               </div>
             </div>
