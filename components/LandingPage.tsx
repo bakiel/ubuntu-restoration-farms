@@ -769,6 +769,98 @@ const LandingPage: React.FC<LandingPageProps> = ({ onEnter, isPlaying, currentPl
         </div>
       </section>
 
+      {/* Kutlwano Holdings Section */}
+      <section className="py-16 sm:py-20 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 border-t border-slate-700">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            {/* Logo & Branding */}
+            <div className="text-center lg:text-left">
+              <div className="inline-block bg-white rounded-2xl p-6 shadow-2xl mb-6">
+                <img
+                  src="/ubuntu-restoration-farms/images/kutlwano-logo.png"
+                  alt="Kutlwano Holdings"
+                  className="h-32 w-auto"
+                />
+              </div>
+              <p className="text-slate-400 text-sm uppercase tracking-wider mb-2">Project Developer</p>
+              <h3 className="text-3xl sm:text-4xl font-black text-white mb-4">
+                Kutlwano Holdings <span className="text-red-500">(Pty) Ltd</span>
+              </h3>
+              <p className="text-emerald-400 text-lg italic mb-6">
+                "Kutlwano" — meaning "mutual understanding" in Setswana
+              </p>
+              <p className="text-slate-300 leading-relaxed">
+                A consulting and project development firm specialising in agricultural transformation, food systems integration, and sustainable infrastructure development. Founded in 2017, bringing together 48 combined years of expertise.
+              </p>
+            </div>
+
+            {/* Credentials & Details */}
+            <div className="space-y-6">
+              {/* Credentials Grid */}
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div className="bg-white/5 backdrop-blur-sm rounded-xl p-4 border border-white/10 hover:border-emerald-500/30 transition-colors">
+                  <div className="text-emerald-400 font-bold text-sm mb-1">USAID Partner</div>
+                  <div className="text-slate-400 text-xs">Southern Africa Trade Hub (2013-2017)</div>
+                </div>
+                <div className="bg-white/5 backdrop-blur-sm rounded-xl p-4 border border-white/10 hover:border-emerald-500/30 transition-colors">
+                  <div className="text-emerald-400 font-bold text-sm mb-1">ASA / WISHH</div>
+                  <div className="text-slate-400 text-xs">International certification</div>
+                </div>
+                <div className="bg-white/5 backdrop-blur-sm rounded-xl p-4 border border-white/10 hover:border-emerald-500/30 transition-colors">
+                  <div className="text-emerald-400 font-bold text-sm mb-1">6 Gov Departments</div>
+                  <div className="text-slate-400 text-xs">Zero non-compliance record</div>
+                </div>
+                <div className="bg-white/5 backdrop-blur-sm rounded-xl p-4 border border-white/10 hover:border-emerald-500/30 transition-colors">
+                  <div className="text-emerald-400 font-bold text-sm mb-1">R0 → R12M</div>
+                  <div className="text-slate-400 text-xs">Revenue growth, 150+ employees</div>
+                </div>
+              </div>
+
+              {/* Registration Details */}
+              <div className="bg-gradient-to-r from-red-500/10 to-emerald-500/10 rounded-xl p-6 border border-white/10">
+                <h4 className="text-white font-bold mb-4">Registration Details</h4>
+                <div className="grid grid-cols-2 gap-4 text-sm">
+                  <div>
+                    <div className="text-slate-500 text-xs uppercase mb-1">Registration</div>
+                    <div className="text-white font-medium">2017/103109/07</div>
+                  </div>
+                  <div>
+                    <div className="text-slate-500 text-xs uppercase mb-1">B-BBEE Status</div>
+                    <div className="text-emerald-400 font-bold">Level 1 (100% Black-owned)</div>
+                  </div>
+                  <div>
+                    <div className="text-slate-500 text-xs uppercase mb-1">CSD Number</div>
+                    <div className="text-white font-medium">MAAA0988070</div>
+                  </div>
+                  <div>
+                    <div className="text-slate-500 text-xs uppercase mb-1">Location</div>
+                    <div className="text-white font-medium">Modimolle, Limpopo</div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Contact CTA */}
+              <div className="flex flex-wrap gap-3">
+                <a
+                  href="mailto:bakiel@kutlwanoholdings.co.za?subject=Kutlwano%20Holdings%20Inquiry"
+                  className="flex items-center gap-2 bg-red-500 hover:bg-red-400 text-white px-5 py-3 rounded-xl font-bold transition-all shadow-lg"
+                >
+                  <Mail className="w-5 h-5" />
+                  Contact Kutlwano Holdings
+                </a>
+                <a
+                  href="tel:+27659387000"
+                  className="flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white px-5 py-3 rounded-xl font-medium transition-all border border-white/20"
+                >
+                  <Phone className="w-5 h-5" />
+                  +27 65 938 7000
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Documents Section */}
       <section className="py-16 sm:py-20 bg-slate-50 border-t border-slate-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
