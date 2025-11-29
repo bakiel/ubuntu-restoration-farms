@@ -99,7 +99,7 @@ const LandingPage: React.FC<LandingPageProps> = ({ onEnter, isPlaying, currentPl
                 {/* Subtext */}
                 <div className="mb-10 max-w-2xl animate-fade-in-up delay-200">
                     <p className="text-lg sm:text-xl text-slate-300 leading-relaxed font-light">
-                        Ubuntu Restoration Farms is a <strong className="text-white font-semibold">R438M infrastructure investment</strong> that delivers simultaneous outcomes for Agriculture, Energy, Labour, and Trade.
+                        Ubuntu Restoration Farms is a <strong className="text-white font-semibold">R441M infrastructure investment</strong> that delivers simultaneous outcomes for Agriculture, Energy, Labour, and Trade.
                     </p>
                 </div>
                 
@@ -185,16 +185,16 @@ const LandingPage: React.FC<LandingPageProps> = ({ onEnter, isPlaying, currentPl
                         <div className="bg-slate-800/40 p-4 rounded-2xl border border-slate-700/50 hover:bg-slate-800/60 transition-colors group">
                             <div className="flex items-center gap-2 mb-2">
                                 <Coins className="w-4 h-4 text-amber-400" />
-                                <p className="text-slate-400 text-[10px] uppercase font-bold">Valuation</p>
+                                <p className="text-slate-400 text-[10px] uppercase font-bold">Plan 1 Investment</p>
                             </div>
-                            <p className="text-2xl font-bold text-white group-hover:text-amber-400 transition-colors">R 57.1 M</p>
+                            <p className="text-2xl font-bold text-white group-hover:text-amber-400 transition-colors">R 59.74 M</p>
                         </div>
                         <div className="bg-slate-800/40 p-4 rounded-2xl border border-slate-700/50 hover:bg-slate-800/60 transition-colors group">
                             <div className="flex items-center gap-2 mb-2">
                                 <TrendingUp className="w-4 h-4 text-emerald-400" />
-                                <p className="text-slate-400 text-[10px] uppercase font-bold">Annual Rev</p>
+                                <p className="text-slate-400 text-[10px] uppercase font-bold">Y7 Revenue</p>
                             </div>
-                            <p className="text-2xl font-bold text-white group-hover:text-emerald-400 transition-colors">R 1.2 B</p>
+                            <p className="text-2xl font-bold text-white group-hover:text-emerald-400 transition-colors">R 1.25 B</p>
                         </div>
                          <div className="bg-slate-800/40 p-3 rounded-xl border border-slate-700/50 flex items-center justify-between group hover:bg-slate-800/60 transition-colors">
                              <div className="flex items-center gap-2">
@@ -481,11 +481,11 @@ const LandingPage: React.FC<LandingPageProps> = ({ onEnter, isPlaying, currentPl
                 
                 <div className="space-y-4">
                     {[
-                        { name: "Land Bank", val: "R 77.05M", type: "Plan 1 (17.6%)" },
-                        { name: "IDC", val: "R 120.0M", type: "Manuf. Infra (27.4%)" },
-                        { name: "NEF", val: "R 63.7M", type: "Transformation (14.5%)" },
-                        { name: "Grants", val: "R 92.3M", type: "Co-Funding (21.0%)" },
-                        { name: "Working Capital", val: "R 85.4M", type: "Equity/Debt (19.5%)" },
+                        { name: "Land Bank", val: "R 79.74M", type: "Plan 1 + 1A (18.1%)" },
+                        { name: "IDC", val: "R 120.0M", type: "Manuf. Infra (27.2%)" },
+                        { name: "NEF", val: "R 63.7M", type: "Transformation (14.4%)" },
+                        { name: "Grants", val: "R 92.3M", type: "Co-Funding (20.9%)" },
+                        { name: "Working Capital", val: "R 85.4M", type: "Equity/Debt (19.4%)" },
                     ].map((row, i) => (
                         <div key={i} className="flex justify-between items-center pb-3 border-b border-slate-50 last:border-0">
                             <div>
@@ -497,7 +497,7 @@ const LandingPage: React.FC<LandingPageProps> = ({ onEnter, isPlaying, currentPl
                     ))}
                     <div className="pt-4 mt-4 border-t-2 border-slate-100 flex justify-between items-center">
                         <div className="font-bold text-slate-900">TOTAL CAPITAL</div>
-                        <div className="font-bold text-xl text-emerald-600">R 438.48M</div>
+                        <div className="font-bold text-xl text-emerald-600">R 441.17M</div>
                     </div>
                 </div>
              </div>
@@ -517,17 +517,17 @@ const LandingPage: React.FC<LandingPageProps> = ({ onEnter, isPlaying, currentPl
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
                     <div className="p-6 bg-slate-50 rounded-xl border border-slate-100 text-center hover:border-emerald-200 transition-colors group">
                         <div className="text-xs font-bold text-slate-400 uppercase mb-2">Total Revenue</div>
-                        <div className="text-3xl font-bold text-slate-900 group-hover:text-emerald-600 transition-colors">R 1.239B</div>
-                        <div className="text-sm text-emerald-600 font-medium mt-1">Annually</div>
+                        <div className="text-3xl font-bold text-slate-900 group-hover:text-emerald-600 transition-colors">R 1.251B</div>
+                        <div className="text-sm text-emerald-600 font-medium mt-1">Year 7</div>
                     </div>
                     <div className="p-6 bg-slate-50 rounded-xl border border-slate-100 text-center hover:border-emerald-200 transition-colors group">
                         <div className="text-xs font-bold text-slate-400 uppercase mb-2">EBITDA</div>
-                        <div className="text-3xl font-bold text-slate-900 group-hover:text-emerald-600 transition-colors">R 807.8M</div>
+                        <div className="text-3xl font-bold text-slate-900 group-hover:text-emerald-600 transition-colors">R 815.5M</div>
                         <div className="text-sm text-emerald-600 font-medium mt-1">65.2% Margin</div>
                     </div>
                     <div className="p-6 bg-slate-50 rounded-xl border border-slate-100 text-center hover:border-emerald-200 transition-colors group">
                         <div className="text-xs font-bold text-slate-400 uppercase mb-2">Net Profit</div>
-                        <div className="text-3xl font-bold text-slate-900 group-hover:text-emerald-600 transition-colors">R 573.6M</div>
+                        <div className="text-3xl font-bold text-slate-900 group-hover:text-emerald-600 transition-colors">R 579.1M</div>
                         <div className="text-sm text-emerald-600 font-medium mt-1">46.3% After Tax</div>
                     </div>
                 </div>
@@ -558,7 +558,7 @@ const LandingPage: React.FC<LandingPageProps> = ({ onEnter, isPlaying, currentPl
               <Award className="w-4 h-4" />
               Executive Team
             </div>
-            <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">Complete Leadership for R438M Deployment</h2>
+            <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">Complete Leadership for R441M Deployment</h2>
             <p className="text-base sm:text-lg text-slate-600 leading-relaxed">
               Technical + Operational + Partnership expertise. Zero capability gaps. Proven track record across R600M+ in projects.
             </p>
@@ -585,7 +585,7 @@ const LandingPage: React.FC<LandingPageProps> = ({ onEnter, isPlaying, currentPl
                   {/* Name Overlay */}
                   <div className="absolute bottom-4 left-4 right-4">
                     <h3 className="text-2xl font-black text-white mb-1">Bakiel Nxumalo</h3>
-                    <p className="text-emerald-400 text-sm font-medium">"The Soy Chef"</p>
+                    <p className="text-emerald-400 text-sm font-medium">Master of Applied Regenerative Systems</p>
                   </div>
                 </div>
                 {/* Content */}
@@ -914,7 +914,7 @@ const LandingPage: React.FC<LandingPageProps> = ({ onEnter, isPlaying, currentPl
                 <span className="font-bold text-xl">Ubuntu Restoration Farms</span>
               </div>
               <p className="text-slate-400 text-sm leading-relaxed mb-4 max-w-md">
-                A R438M integrated agricultural investment solving 8 government mandates with one regenerative system. Where 500-year vision meets bankable returns.
+                A R441M integrated agricultural investment solving 8 government mandates with one regenerative system. Where 500-year vision meets bankable returns.
               </p>
               <p className="text-emerald-400 text-sm italic">
                 "I am because we are. We are because the soil lives."

@@ -18,28 +18,28 @@ interface DashboardProps {
 
 const Dashboard: React.FC<DashboardProps> = ({ setActiveTab, projectId, isPlaying, currentPlayingId, isLoadingAudio, fetchAndPlayAudio, pauseAudio }) => {
   
-  // Plan 1 Data (The Farm) - Corrected R57.05M
+  // Plan 1 Data (The Farm) - Updated R59.744M (November 2025)
   const plan1Data = {
-    investment: { total: '57.05M', loan: '100%', grant: '0%' },
-    revenue: { year3: '34.3M', margin: '71.5%' },
-    jobs: { total: '185', subtext: '(Year 1-3 Avg)' },
-    dscr: { value: '3.48x', subtext: 'Min required: 1.25x' },
+    investment: { total: '59.74M', loan: '100%', grant: '0%' },
+    revenue: { year3: '47.3M', margin: '49.5%' },
+    jobs: { total: '185', subtext: '185 direct + 270 indirect' },
+    dscr: { value: '1.99x', subtext: 'Y1 (grows to 6.63x Y10)' },
     chartData: [
-      { name: 'Year 1', revenue: 34.3, profit: 24.5 },
-      { name: 'Year 2', revenue: 45.2, profit: 31.4 },
-      { name: 'Year 3', revenue: 52.1, profit: 36.8 },
-      { name: 'Year 4', revenue: 58.5, profit: 41.2 },
-      { name: 'Year 5', revenue: 64.2, profit: 45.0 },
+      { name: 'Year 1', revenue: 29.6, profit: 14.6 },
+      { name: 'Year 2', revenue: 38.5, profit: 23.3 },
+      { name: 'Year 3', revenue: 47.3, profit: 31.4 },
+      { name: 'Year 5', revenue: 55.7, profit: 38.2 },
+      { name: 'Year 7', revenue: 61.4, profit: 42.1 },
     ],
     phases: [
-      { title: 'Phase 1: Acquisition', time: 'Month 1-3', desc: 'Secure 445ha property. Take over existing pecan orchards and infrastructure.', status: 'current' },
-      { title: 'Phase 2: Agritech Install', time: 'Month 3-6', desc: 'Install 500kVA Solar, Rock Dust Crusher, and Water Filtration systems.', status: 'future' },
-      { title: 'Phase 3: Full Production', time: 'Year 1+', desc: 'Vegetable harvest, Composting scale-up, and Plan 2/3 feedstock supply.', status: 'future' }
+      { title: 'Phase 1: Acquisition', time: 'Month 1-3', desc: 'Secure 445ha with R19M infrastructure. 9 boreholes, 19,000m³ dam, 22ha pecans.', status: 'current' },
+      { title: 'Phase 2: Agritech Install', time: 'Month 3-6', desc: 'Install 500kVA Solar, Rock Dust Processing (600T/yr), Vermicompost (700T/yr).', status: 'future' },
+      { title: 'Phase 3: Full Production', time: 'Year 1+', desc: 'R29.6M Y1 revenue. NSNP contracts (R12.5M locked). Plans 2-4 feedstock supply.', status: 'future' }
     ],
     risks: [
-      { label: 'Base Case', roi: '3.48x', subtext: 'DSCR', color: 'text-emerald-400' },
-      { label: 'Drought Risk', roi: '-2%', subtext: 'Rev Impact (Low)', color: 'text-emerald-400' },
-      { label: 'Market Price', roi: 'Hedged', subtext: 'Pre-sold Contracts', color: 'text-emerald-400' }
+      { label: 'Year 1 DSCR', roi: '1.99x', subtext: '59% above min', color: 'text-emerald-400' },
+      { label: 'Drought Risk', roi: '-2%', subtext: '9 Boreholes+Dam', color: 'text-emerald-400' },
+      { label: 'Revenue Lock', roi: 'R12.5M', subtext: 'NSNP Contracted', color: 'text-emerald-400' }
     ]
   };
 
@@ -415,7 +415,7 @@ const Dashboard: React.FC<DashboardProps> = ({ setActiveTab, projectId, isPlayin
                : projectId === 'plan4'
                ? "Patient capital model accommodates the cheese ageing period. Risk is mitigated by waxed shelf-stability (no cold chain required) and extreme margin expansion once estate-grown macadamias come online."
                : projectId === 'plan1'
-               ? "With 9 boreholes and 19KL dam capacity, the farm is drought-proof. Pre-sold NSNP contracts and retail offtake agreements lock in revenue. 500kVA Solar eliminates energy cost risk."
+               ? "With 9 boreholes and 19,000m³ dam capacity, the farm is drought-proof. Pre-sold NSNP contracts (R12.5M) lock in 42% of Year 1 revenue. 500kVA Solar + biomass gasifier eliminates all energy cost risk with zero Eskom dependency."
                : "The facility maintains operational viability even under severe market stress. Our debt service coverage ratio (DSCR) provides an extraordinary safety buffer."
           }
         </p>

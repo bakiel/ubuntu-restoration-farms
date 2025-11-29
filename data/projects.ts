@@ -6,9 +6,9 @@ export const projects: Project[] = [
     id: 'plan1',
     name: 'Plan 1: Core Farm (Modimolle)',
     location: 'Modimolle, Limpopo',
-    shortDesc: 'Acquisition of 445ha premier farm. Includes 22ha Pecans, 170m² Cold Room, 9 Boreholes, and Lodge. Foundation of the estate.',
-    investment: 'R 57.05M',
-    roi: 'R 49.0M Rev (Y7)',
+    shortDesc: 'Acquisition of 445ha premier farm. Includes 22ha Pecans, 400m³ Cold Room, 9 Boreholes, 19,000m³ Dam, and R19M infrastructure. Foundation of the estate.',
+    investment: 'R 59.74M',
+    roi: 'R 61.4M Rev (Y7)',
     jobs: 185,
     status: 'Investment Ready',
     type: 'Agriculture',
@@ -96,8 +96,8 @@ export const projects: Project[] = [
 ];
 
 export const masterPlanStats = {
-  totalInvestment: 'R 438.48M',
-  totalJobs: '1,205', 
-  blendedROI: 'R 1.239B Rev',
+  totalInvestment: 'R 441.17M',
+  totalJobs: '1,205',
+  blendedROI: 'R 1.251B Rev',
   totalImpact: '-19,085 T CO₂e'
 };

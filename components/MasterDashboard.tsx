@@ -70,8 +70,8 @@ const MasterDashboard: React.FC<MasterDashboardProps> = ({ onSelectProject, isPl
                     </div>
 
                     <p className="text-lg text-slate-300 leading-relaxed font-light border-l-4 border-emerald-500 pl-6 mb-8">
-                        Transforming 645 hectares of Limpopo soil into a <strong className="text-white">R1.24 billion revenue engine</strong>. 
-                        We solve the diesel crisis with bio-energy sovereignty, the unemployment crisis with 1,205 jobs, 
+                        Transforming 645 hectares of Limpopo soil into a <strong className="text-white">R1.25 billion revenue engine</strong>.
+                        We solve the diesel crisis with bio-energy sovereignty, the unemployment crisis with 1,205 jobs,
                         and the climate crisis by sequestering 19,085 tonnes of carbon annually.
                     </p>
 
@@ -203,7 +203,7 @@ const MasterDashboard: React.FC<MasterDashboardProps> = ({ onSelectProject, isPl
              </div>
              <div className="hidden md:block text-right">
                  <p className="text-xs font-bold text-slate-400 uppercase mb-1">Total Capital Req.</p>
-                 <p className="text-xl font-bold text-emerald-600">R 438.48 M</p>
+                 <p className="text-xl font-bold text-emerald-600">R 441.17 M</p>
              </div>
         </div>
 
@@ -266,33 +266,33 @@ const MasterDashboard: React.FC<MasterDashboardProps> = ({ onSelectProject, isPl
       <div className="bg-white rounded-2xl shadow-sm border border-slate-200 p-8">
           <h3 className="text-xl font-bold text-slate-900 mb-6 flex items-center gap-2">
               <Wallet className="w-5 h-5 text-slate-500" />
-              Capital Structure (R438.48M)
+              Capital Structure (R441.17M)
           </h3>
           <div className="grid grid-cols-1 lg:grid-cols-5 gap-6 text-sm">
                <div className="lg:col-span-1 bg-slate-50 p-4 rounded-xl border border-slate-100">
                    <div className="text-slate-500 font-bold uppercase text-xs mb-1">Land Bank</div>
-                   <div className="text-xl font-bold text-slate-900">R 77.05M</div>
-                   <div className="text-xs text-slate-400">17.6%</div>
+                   <div className="text-xl font-bold text-slate-900">R 79.74M</div>
+                   <div className="text-xs text-slate-400">18.1%</div>
                </div>
                <div className="lg:col-span-1 bg-slate-50 p-4 rounded-xl border border-slate-100">
                    <div className="text-slate-500 font-bold uppercase text-xs mb-1">IDC (Infra)</div>
                    <div className="text-xl font-bold text-slate-900">R 120.0M</div>
-                   <div className="text-xs text-slate-400">27.4%</div>
+                   <div className="text-xs text-slate-400">27.2%</div>
                </div>
                <div className="lg:col-span-1 bg-slate-50 p-4 rounded-xl border border-slate-100">
                    <div className="text-slate-500 font-bold uppercase text-xs mb-1">NEF (Transf)</div>
                    <div className="text-xl font-bold text-slate-900">R 63.7M</div>
-                   <div className="text-xs text-slate-400">14.5%</div>
+                   <div className="text-xs text-slate-400">14.4%</div>
                </div>
                <div className="lg:col-span-1 bg-slate-50 p-4 rounded-xl border border-slate-100">
                    <div className="text-slate-500 font-bold uppercase text-xs mb-1">Grants</div>
                    <div className="text-xl font-bold text-slate-900">R 92.3M</div>
-                   <div className="text-xs text-slate-400">21.0%</div>
+                   <div className="text-xs text-slate-400">20.9%</div>
                </div>
                <div className="lg:col-span-1 bg-slate-50 p-4 rounded-xl border border-slate-100">
                    <div className="text-slate-500 font-bold uppercase text-xs mb-1">Working Cap</div>
                    <div className="text-xl font-bold text-slate-900">R 85.4M</div>
-                   <div className="text-xs text-slate-400">19.5%</div>
+                   <div className="text-xs text-slate-400">19.4%</div>
                </div>
           </div>
       </div>

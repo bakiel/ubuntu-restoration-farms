@@ -12,7 +12,7 @@ export const voiceScripts: VoiceScripts = {
   landingPage: {
     heroIntro: {
       title: 'Introductory Statement',
-      text: 'How one four hundred thirty-eight million rand investment solves eight government priorities simultaneously. Government departments operate in silos. Ubuntu Restoration Farms represents a rare convergence point where infrastructure investment delivers outcomes for Agriculture, Energy, Labour, Environment, and Trade—simultaneously.',
+      text: 'How one four hundred forty-one million rand investment solves eight government priorities simultaneously. Government departments operate in silos. Ubuntu Restoration Farms represents a rare convergence point where infrastructure investment delivers outcomes for Agriculture, Energy, Labour, Environment, and Trade—simultaneously.',
     },
     energyDive: {
       title: 'Energy Security Deep Dive',
@@ -22,11 +22,11 @@ export const voiceScripts: VoiceScripts = {
   masterDashboard: {
     intro: {
       title: 'Master Investment Portfolio Introduction',
-      text: 'Ubuntu Restoration Farms. South Africa\'s First Integrated Regenerative Food System. A twenty-one year vision becoming reality, transforming six hundred forty-five hectares of Limpopo soil into a one point two three nine billion rand annual revenue engine with complete energy and logistics independence.',
+      text: 'Ubuntu Restoration Farms. South Africa\'s First Integrated Regenerative Food System. A twenty-one year vision becoming reality, transforming six hundred forty-five hectares of Limpopo soil into a one point two five one billion rand annual revenue engine with complete energy and logistics independence.',
     },
     plan1: {
       title: 'Plan 1: Core Farm',
-      text: 'Plan one, Core Farm, Modimolle. Acquisition of four hundred forty-five hectare premier farm. Includes twenty-two hectare Pecans, one hundred seventy square meter Cold Room, nine Boreholes, and Lodge. The two hundred hectare Soy expansion follows in Year 3.',
+      text: 'Plan one, Core Farm, Modimolle. Acquisition of four hundred forty-five hectare premier farm with nineteen million rand existing infrastructure. Includes twenty-two hectare Pecans, four hundred cubic metre Cold Room, nine Boreholes, nineteen thousand cubic metre dam, and Lodge. The two hundred hectare Soy expansion follows in Year 3.',
     },
     plan2: {
       title: 'Plan 2: Agroforestry and Dairy',
@@ -56,23 +56,23 @@ export const voiceScripts: VoiceScripts = {
   plan1: {
     investment: {
       title: 'Plan 1: Total Investment',
-      text: 'Total Investment for Plan 1 is fifty-seven point one Million Rand. It includes one hundred percent Debt, and zero percent Grant.',
+      text: 'Total Investment for Plan 1 is fifty-nine point seven four four Million Rand. It includes one hundred percent Land Bank debt under the Special Mortgage Programme for Black farmers.',
     },
     revenue: {
       title: 'Plan 1: Year 1 Revenue',
-      text: 'Plan 1\'s Year 1 Revenue is thirty-four point three million Rand. The EBITDA Margin is seventy-one point five percent.',
+      text: 'Plan 1\'s Year 1 Revenue is twenty-nine point six million Rand. The EBITDA Margin is forty-nine point five percent, growing to sixty-eight point five percent by Year 5.',
     },
     jobs: {
       title: 'Plan 1: Jobs and Impact',
-      text: 'Plan 1 generates eighty-five direct jobs, with an additional three hundred seventy indirect jobs.',
+      text: 'Plan 1 generates one hundred eighty-five direct jobs, with an additional two hundred seventy indirect jobs across the downstream value chain.',
     },
     dscr: {
       title: 'Plan 1: DSCR Coverage',
-      text: 'Plan 1\'s DSCR Coverage is three point forty-eight times, exceeding the minimum required of one point twenty-five times.',
+      text: 'Plan 1\'s Year 1 DSCR is one point ninety-nine times, fifty-nine percent above Land Bank minimum. By Year 10, DSCR reaches six point six three times.',
     },
     risks: {
       title: 'Plan 1: Risk and Resilience',
-      text: 'Plan 1 maintains operational viability even under severe market stress. The farm is drought-proof with nine boreholes and nineteen kiloliter dam capacity. Pre-sold NSNP contracts and retail off-take agreements lock in revenue. Five hundred kVA Solar eliminates energy cost risk.',
+      text: 'Plan 1 maintains operational viability even under severe market stress. The farm is drought-proof with nine boreholes and nineteen thousand cubic metre dam capacity. Pre-sold NSNP contracts lock in twelve point five million rand guaranteed revenue. Five hundred kVA Solar plus biomass gasifier eliminates all energy cost risk with zero Eskom dependency.',
     },
   },
   plan2: {
